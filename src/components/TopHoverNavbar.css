@@ -1,0 +1,34 @@
+.hover-trigger {
+    width: 100%;
+    height: 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+}
+
+.hover-navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    height:100px;
+    background-color: #C9D1D5;
+    z-index: 9;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-trigger:hover + .hover-navbar,
+.hover-navbar:hover {
+    display: block;
+    transform: translateY(0);
+}
+
+.addFishText{
+    font-size: 24px;
+    color: #0C243C;
+    font-weight: bold;
+    font-family: cursive;
+}

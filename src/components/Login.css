@@ -1,0 +1,58 @@
+.floral-background {
+    background-image: url('./floral-background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container-log-in {
+    background-color: rgba(251, 245, 245, 0.9); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.floral-header {
+    font-family: 'Roboto', cursive; /* Applying a better font */
+    color: rgb(137, 101, 137); /* Changing the color to green */
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.register-link {
+    color: rgb(137, 101, 137); /* Change the color to your preferred color */
+    /* Additional styling if needed */
+}
+
+
+.login-button {
+    background-color: #338736; /* Green background color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+
+/* Additional styling for form fields, buttons, etc. */

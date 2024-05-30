@@ -1,0 +1,62 @@
+/* Register.css */
+
+.floral-background {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container-register {
+    background-color: rgba(251, 245, 245, 0.9); /* Transparent white background */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.floral-header {
+    text-align: center;
+    font-size: 24px;
+    color: #333; /* Darker color for the header */
+}
+
+.register-button {
+    background-color: rgb(120, 91, 152);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.log-in-link {
+    color: #338736; /* Blue color for the login link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold */
+}
+
+.log-in-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style specific to Register page */
+.form-group {
+    margin-bottom: 20px; /* Increase space between form inputs */
+}
+
+.form-label {
+    font-weight: bold; /* Make form labels bold */
+}
+
+.mt-3 {
+    margin-top: 20px; /* Increase space above the login link */
+}
